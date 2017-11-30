@@ -1,0 +1,603 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunitosans-Regular.ttf)
+}
+
+.container{
+	min-width: 	1100px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(fundo2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width:200%; 
+    min-width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+#noscroll{
+	position: fixed;
+}
+
+#header{
+  
+  text-transform:uppercase;
+  font-size: 50px;
+  color: black;
+  padding-left: 370px;
+  border-bottom: 15px #006CFF;
+  border-top: 5px #006CFF;
+  padding: #006CFF;
+  background: #006CFF;
+  margin-bottom: 3px
+  }
+
+#headerH{
+  
+  text-transform:uppercase;
+  font-size: 50px;
+  color: black;
+  padding-left: 410px;
+  border-bottom: 15px #006CFF;
+  border-top: 5px #006CFF;
+  padding: #006CFF;
+  background: #006CFF;
+  margin-bottom: 3px
+  }
+
+#headerCO{
+  
+  text-transform:uppercase;
+  font-size: 50px;
+  color: black;
+  padding-left: 345px;
+  border-bottom: 15px #006CFF;
+  border-top: 5px #006CFF;
+  padding: #006CFF;
+  background: #006CFF;
+  margin-bottom: 3px
+  }
+
+#headerM{
+  
+  text-transform:uppercase;
+  font-size: 50px;
+  color: black;
+  padding-left: 335px;
+  border-bottom: 15px #006CFF;
+  border-top: 5px #006CFF;
+  padding: #006CFF;
+  background: #006CFF;
+  margin-bottom: 3px
+  }
+
+#headerC{
+  
+  text-transform:uppercase;
+  font-size: 50px;
+  color: black;
+  padding-left: 355px;
+  border-bottom: 15px #006CFF;
+  border-top: 5px #006CFF;
+  padding: #006CFF;
+  background: #006CFF;
+  margin-bottom: 3px
+  }
+
+#headerA{
+  
+  text-transform:uppercase;
+  font-size: 50px;
+  color: black;
+  padding-left: 300px;
+  border-bottom: 15px #006CFF;
+  border-top: 5px #006CFF;
+  padding: #006CFF;
+  background: #006CFF;
+  margin-bottom: 3px
+  }
+
+
+
+li{
+  display:inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 100px;
+  text-transform:uppercase;
+
+
+
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid #006CFF;
+    margin: auto 160px auto 45px;
+    padding: 0;
+}
+
+a:link{
+    color: #006CFF;
+    text-decoration:none;
+}
+
+
+a:visited{
+    color: #006CFF;
+    text-decoration:none;
+}
+
+a:hover{
+    color:black;
+    
+}
+
+a:active{
+    color:#006CFF;
+    text-decoration:none
+}
+
+.conteudo{
+  color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 1010px;
+  max-height: 700px;
+  text-align: justify;
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  margin: -70px auto 50px auto;
+  border-radius: 10px;
+  line-height: 1.5em;
+  }
+
+
+
+#footer{
+  
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  border-top: auto;
+  padding-right: 20px;
+  padding-bottom: auto;
+  background: #006CFF;
+  margin-bottom: auto;
+  margin-top: 375px;
+
+}
+
+#footerC{
+  
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  border-top: auto;
+  padding-right: 20px;
+  padding-bottom: auto;
+  background: #006CFF;
+  margin-bottom: auto;
+  margin-top: 20px;
+
+}
+
+#footerA{
+  
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  border-top: auto;
+  padding-right: 20px;
+  padding-bottom: auto;
+  background: #006CFF;
+  margin-bottom: auto;
+  margin-top: 78px;
+
+}
+
+a#HOME:link {
+  color:black;
+}
+
+a#HOME:hover {
+  color:grey;
+}
+
+
+a#HOME:visited {
+  color:black;
+}
+
+
+.escrever1 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 190px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+
+}
+
+.escrever2 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 610px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.escrever3 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 225px;
+    margin-left: 190px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.escrever4 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 225px;
+    margin-left: 610px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.escrever5 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 60px;
+    margin-left: 390px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.escrever6 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 150px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.escrever7 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 385px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.escrever8 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 620px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.escrever9 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 225px;
+    margin-left: 150px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.escrever10 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 225px;
+    margin-left: 385px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.escrever11 {
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 225px;
+    margin-left: 620px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.fotoagendamento img{
+  width: 80%;
+  height: auto;
+  margin-top: 60px;
+}
+
+.fotocobranca img{
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.popup {
+    text-transform: uppercase;
+    background: white;
+    color: red;
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 665px;
+    position: absolute;
+    min-width: 300px;
+    min-height: 150px;
+    text-align: center;
+    margin-top: 236px;
+
+
+}
+
+
+.horario1 {
+    text-transform: uppercase;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 160px;
+    margin-left: 320px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.horario2 {
+    text-transform: uppercase;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 160px;
+    margin-left: 450px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+.preco {
+    text-transform: uppercase;
+    color: black;
+    padding: 8px;
+    font-size: 40px;
+    border: none;
+    margin-top: 240px;
+    margin-left: 390px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.botoesm {
+  margin-top: 60px;
+}
+
+.botao1 {
+    text-transform: uppercase;
+    background: #006CFF;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 190px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+
+}
+
+.botao2 {
+    text-transform: uppercase;
+    background: #006CFF;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 610px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.botao3 {
+    text-transform: uppercase;
+    background: #006CFF;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 225px;
+    margin-left: 190px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.botao4 {
+    text-transform: uppercase;
+    background: #006CFF;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 225px;
+    margin-left: 610px;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+
+}
+
+#pop {
+color: black;
+}
+
+a#botoes:link{
+    color: black;
+    text-decoration:none;
+}
+
+
+a#botoes:visited{
+    color: black;
+    text-decoration:none;
+}
+
+a#botoes:hover{
+    color:gray;
+    background-color: black;
+    align-content: center;
+    padding: 8px;
+    text-decoration: none;
+    
+
+}
+
+a#botoes:active{
+    color:#006CFF;
+    text-decoration:none
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    margin: auto;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #006CFF;
+    min-width: 160px;
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: black; 
+  color:gray;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    align-content: center;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #006CFF;
+    background-color: transparent;
+
+}
